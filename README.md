@@ -7,4 +7,8 @@ css so the returned data is formatted for it.
 This is not for your site, nor really for any public implementation.
 It is really just for me to see how to build Twig filters...
 
+In a twig file I put    {{ product | mfr_list }} to call the return list.
+As of this I am not working with the variable being passed.
+
+
 any questions ping me on Twitter @michalsen
