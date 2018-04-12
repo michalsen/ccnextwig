@@ -1,0 +1,6 @@
+services:
+  cncextwig.twig_extension:
+    arguments: ['@renderer']
+    class: Drupal\cncextwig\TwigExtension\Manufacturers
+    tags:
+      - { name: twig.extension }
